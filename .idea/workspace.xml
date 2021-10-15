@@ -2,36 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b7e4731-1942-465a-9c12-dbd85cbfb83a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout/Layout.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout/MainNavigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout/MainNavigation.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/meetups/MeetupItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/meetups/MeetupItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/meetups/MeetupList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/meetups/MeetupList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/meetups/NewMeetupForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/meetups/NewMeetupForm.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/Card.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/next.js.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/new-meetup/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/next.config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/pages/_app.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/pages/api/hello.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/pages/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/vercel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/vercel.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/styles/Home.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/styles/globals.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/yarn.lock" beforeDir="false" />
@@ -43,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -67,10 +51,21 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\repos\next.js\pages\new-meetup" />
       <recent name="D:\repos\next.js\my-app\pages\news" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.dev (1)">
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/my-app/package.json" />
       <command value="run" />
@@ -93,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
       </list>
@@ -106,7 +102,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634131509569</updated>
-      <workItem from="1634131511157" duration="2455000" />
+      <workItem from="1634131511157" duration="2835000" />
+      <workItem from="1634274610596" duration="607000" />
     </task>
     <servers />
   </component>
@@ -123,6 +120,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -130,7 +128,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/my-app/pages/news/index.js</url>
           <line>8</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
