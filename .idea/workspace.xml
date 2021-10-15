@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b7e4731-1942-465a-9c12-dbd85cbfb83a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/new-meetup/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/meetups/MeetupDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/meetups/MeetupDetail.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/[meetupId]/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/next.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/pages/_app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/pages/api/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/styles/Home.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/styles/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/MainNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/MainNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/meetups/MeetupItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/meetups/MeetupItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/new-meetup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/new-meetup/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +40,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -56,6 +50,16 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.dev (1)">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -76,6 +80,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/my-app/package.json" />
       <command value="run" />
@@ -89,6 +103,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
       </list>
